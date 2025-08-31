@@ -99,7 +99,7 @@ const Home = () => {
 
       <div className="flex h-[50vh] sm:h-screen items-center justify-center px-5 sm:px-10 gap-2 my-0 sm:my-20 bg-white py-10 relative">
         <div className="absolute font-semibold inset-0 flex items-center justify-center overflow-hidden">
-          <div className="flex flex-col items-center justify-between leading-none max-w-[90%] h-full max-h-[85%] text-white/90 text-6xl sm:text-[120px] tracking-widest text-center">
+          <div className="flex flex-col items-center justify-around leading-none max-w-[90%] h-full max-h-[85%] text-white/90 text-6xl sm:text-[120px] tracking-widest text-center">
             <div>Step Into the</div>
             <div className="font-galada text-secondary/90 font-light"> Future </div>
             <div>of</div>
