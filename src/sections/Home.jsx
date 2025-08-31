@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Home = () => {
   return (
     <section id="home">
@@ -175,9 +177,9 @@ const Home = () => {
                 modelling careers begin and grow.
               </div>
             </div>
-            <div className="bg-white text-black font-bold px-0 sm:px-5 py-2 sm:py-3 rounded-2xl max-w-[120px] sm:max-w-[200px] text-center text-xl sm:text-xl cursor-pointer">
+            <Link className="bg-white text-black font-bold px-0 sm:px-5 py-2 sm:py-3 rounded-2xl max-w-[120px] sm:max-w-[200px] text-center text-xl sm:text-xl cursor-pointer" to="/form">
               Join Us
-            </div>
+            </Link>
           </div>
 
           <img
