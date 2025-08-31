@@ -2,11 +2,11 @@ import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <header className="h-[10vh] w-full flex items-center justify-between px-10">
+    <header className="h-[10vh] w-full flex items-center justify-between px-3 sm:px-10">
       <img
         src="/images/logo.webp"
         alt=""
-        className="object-cover object-center h-full min-w-[150px] text-lg text-black font-bold text-center"
+        className="object-cover object-center py-3 sm:py-0 h-full sm:min-w-auto text-lg text-black font-bold text-center"
       />
 
       <div className="flex items-center gap-10">
@@ -28,7 +28,7 @@ const Navbar = () => {
           </Link>
         </div>
         <Link
-          className="px-2 py-2 w-full h-full bg-[#b67c35] rounded-md text-white font-bold text-center cursor-pointer"
+          className="text-sm px-2 py-2 min-w-[100px] sm:w-full max-h-[50px] sm:h-full bg-[#b67c35] rounded-md text-white font-bold text-center cursor-pointer"
           to="/form"
         >
           Become a Model
