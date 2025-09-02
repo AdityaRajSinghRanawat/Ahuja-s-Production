@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <header className="h-[10vh] w-full flex items-center justify-between px-3 sm:px-10">
+    <header className="h-[10vh] w-full flex items-center justify-between px-3 sm:px-10 font-serif">
       <img
         src="/images/logo.webp"
         alt=""
@@ -10,7 +10,7 @@ const Navbar = () => {
       />
 
       <div className="flex items-center gap-10">
-        <div className="hidden md:flex items-center gap-10 ">
+        <div className="hidden md:flex items-center gap-10">
           <Link className="cursor-pointer" to="/">
             Home
           </Link>

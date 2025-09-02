@@ -7,10 +7,20 @@ body {
   overflow-x: hidden;
   user-select: none;
   box-sizing: border-box;
+  font-family: var(--font-magtis);
 }
 
 @utility banner-text-responsive {
   @apply text-4xl sm:text-5xl lg:text-6xl;
+}
+
+/* Magtis */
+
+@font-face{
+  font-family: "Magtis";
+  src: url("fonts/otf/Magtis-ExtraBold.otf");
+  font-style: normal;
+  font-display: swap;
 }
 
 /* galada-latin-400-normal */
@@ -30,6 +40,9 @@ body {
 @theme {
   --color-primary: #b67c35;
   --color-button-color: #b67c35;
-  --font-galada: "Galada", sans-serif;
   --color-secondary: #E26796;
+  --color-paper: #D9D9D9;
+  
+  --font-galada: "Galada", sans-serif;
+  --font-magtis: "Magtis", "sans-serif";
 }
