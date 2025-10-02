@@ -31,14 +31,14 @@ const Services = () => {
           <h2 className="text-4xl sm:text-6xl font-bold text-[#b67c35]">
             Film Making
           </h2>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl font-serif">
             Crafting stories for the big screen with cinematic precision,
             creativity, and passion. Our film-making services bring ideas to
             life.
           </p>
           <Link
             to="/contact"
-            className="bg-black text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
+            className="bg-black text-white font-serif px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
           >
             Explore
           </Link>
@@ -56,19 +56,19 @@ const Services = () => {
           <h2 className="text-4xl sm:text-6xl font-bold text-[#b67c35]">
             TV Commercial
           </h2>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl font-serif">
             Creative ads that captivate audiences, communicate brands, and leave
             a lasting impression across every screen.
           </p>
           <Link
             to="/contact"
-            className="bg-black text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
+            className="bg-black text-white font-serif px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
           >
             Explore
           </Link>
           <div className="mt-10 flex flex-col items-center text-center">
             <p className="text-xl sm:text-2xl font-bold text-[#b67c35]">
-              "Great ads don’t just sell, they tell unforgettable stories."
+              "Great ads don't just sell, they tell unforgettable stories."
             </p>
             <img
               src="/images/home-bento-7.jpg"
@@ -91,13 +91,13 @@ const Services = () => {
           <h2 className="text-4xl sm:text-6xl font-bold text-[#b67c35]">
             Music Production
           </h2>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl font-serif">
             From soulful tracks to energetic beats, we produce music that
             connects, inspires, and elevates every project.
           </p>
           <Link
             to="/contact"
-            className="bg-black text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
+            className="bg-black text-white font-serif px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
           >
             Explore
           </Link>
@@ -130,7 +130,7 @@ const Services = () => {
           
           <Link
             to="/contact"
-            className="bg-black text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
+            className="bg-black text-white font-serif px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold"
           >
             Explore
           </Link>
@@ -140,36 +140,36 @@ const Services = () => {
       {/* Bottom Cards */}
       <div className="bg-black text-white py-20 px-5 sm:px-20">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
-          <div className="bg-[#D9D9D9] text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
+          <div className="bg-white h-fit pb-35 text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
             <img
               src="/images/home-bento-1.jpg"
               alt=""
               className="rounded-lg object-cover"
             />
-            <h3 className="text-2xl font-bold text-[#b67c35]">
+            <h3 className="text-4xl font-bold text-[#b67c35]">
               Cinematography
             </h3>
-            <p>Capturing breathtaking visuals with artistic excellence.</p>
+            <p className="font-serif">Capturing breathtaking visuals with artistic excellence.</p>
           </div>
-          <div className="bg-[#D9D9D9] text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
+          <div className="bg-white text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
             <img
               src="/images/home-bento-2.jpg"
               alt=""
               className="rounded-lg object-cover"
             />
-            <h3 className="text-2xl font-bold text-[#b67c35]">Editing</h3>
-            <p>
+            <h3 className="text-4xl font-bold text-[#b67c35]">Editing</h3>
+            <p className="font-serif">
               Polishing stories with professional cuts, effects, and precision.
             </p>
           </div>
-          <div className="bg-[#D9D9D9] text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
+          <div className="bg-white h-fit pb-20 text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
             <img
               src="/images/home-bento-3.jpg"
               alt=""
               className="rounded-lg object-cover"
             />
-            <h3 className="text-2xl font-bold text-[#b67c35]">Animation</h3>
-            <p>Adding motion and creativity to elevate every visual project.</p>
+            <h3 className="text-4xl font-bold text-[#b67c35]">Animation</h3>
+            <p className="font-serif">Adding motion and creativity to elevate every visual project.</p>
           </div>
         </div>
       </div>

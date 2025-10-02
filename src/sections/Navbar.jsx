@@ -6,11 +6,11 @@ const Navbar = () => {
       <img
         src="/images/logo.webp"
         alt=""
-        className="object-cover object-center py-3 sm:py-0 h-full sm:min-w-auto text-lg text-black font-bold text-center"
+        className="object-cover object-center py-3 sm:py-0 h-full sm:min-w-auto"
       />
 
       <div className="flex items-center gap-10">
-        <div className="hidden md:flex items-center gap-10">
+        <div className="text-xl hidden md:flex items-center gap-10">
           <Link className="cursor-pointer" to="/">
             Home
           </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
           </Link>
         </div>
         <Link
-          className="text-sm px-2 py-2 min-w-[100px] sm:w-full max-h-[50px] sm:h-full bg-[#b67c35] rounded-md text-white font-bold text-center cursor-pointer"
+          className="text-xl px-2 py-2 min-w-[100px] sm:w-full max-h-[50px] sm:h-full bg-[#b67c35] rounded-md text-white font-bold text-center cursor-pointer"
           to="/form"
         >
           Become a Model
