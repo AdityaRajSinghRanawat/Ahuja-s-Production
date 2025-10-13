@@ -195,7 +195,7 @@ const Home = () => {
       {/* Images Gallery */}
       <div
         ref={imgContainerRef}
-        className="flex flex-col sm:flex-row min-h-screen items-center justify-center px-5 sm:px-10 gap-1 sm:gap-2 pt-50 pb-70 bg-black overflow-x-hidden"
+        className="flex flex-col sm:flex-row min-h-screen overflow-y-hidden items-center justify-center px-5 sm:px-10 gap-1 sm:gap-2 pt-50 pb-70 bg-black overflow-x-hidden"
       >
         <img
           ref={heroImg1Ref}
@@ -265,14 +265,14 @@ const Home = () => {
           </div>
           <div ref={bentoImg1Ref} className="col-span-1 row-span-1 rounded-lg">
             <img
-              src="/images/home-bento-9.jpg"
+              src="/images/home-bento-1.jpg"
               alt=""
               className="rounded-lg shadow-md h-full w-full object-cover object-center"
             />
           </div>
           <div ref={bentoImg2Ref} className="col-span-1 row-span-1 rounded-lg">
             <img
-              src="/images/home-bento-1.jpg"
+              src="/images/home-bento-2.webp"
               alt=""
               className="col-span-1 row-span-1 rounded-lg shadow-md h-full w-full object-cover object-[center_20%]"
             />
@@ -292,7 +292,7 @@ const Home = () => {
           </div>
           <div ref={bentoImg3Ref} className="col-span-2 row-span-1 rounded-lg">
             <img
-              src="/images/home-bento-5.jpg"
+              src="/images/home-bento-3.webp"
               alt=""
               className="col-span-1 row-span-1 rounded-lg shadow-md h-full w-full object-cover object-[center_40%]"
             />
@@ -321,7 +321,7 @@ const Home = () => {
           </div>
 
           <img
-            src="/images/home-join-card.jpg"
+            src="/images/home-join-card.webp"
             alt=""
             className="rounded-3xl absolute inset-0 w-full h-full object-cover object-[0%_20%]"
           />

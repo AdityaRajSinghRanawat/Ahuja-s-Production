@@ -10,7 +10,7 @@ const Reviews = () => {
       <div className="h-[80vh] sm:h-[90vh] relative flex items-center justify-center text-white overflow-hidden">
         {/* Background Image */}
         <img
-          src="/images/review-header.jpg"
+          src="/images/review-header.webp"
           alt="Reviews Background"
           className="absolute inset-0 w-full h-full object-cover z-0"
         />
@@ -33,8 +33,7 @@ const Reviews = () => {
 
       {/* Reviews Section */}
       <div
-        className="relative px-5 sm:px-20 py-20 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/logo2.png')" }} // 🔹 replace with your background image
+        className="relative px-5 sm:px-20 py-20 bg-cover bg-center bg-[url('/images/reviews-card-bg.jpg')]"
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
@@ -44,15 +43,15 @@ const Reviews = () => {
           {/* Review Card 1 */}
           <div className="bg-white rounded-xl shadow-lg p-6 sm:p-10 flex items-start gap-6">
             <img
-              src="/images/home-gallery-1.jpg"
-              alt="Sarah K"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover shadow-md"
+              src="/images/reviews-card-1.jpg"
+              alt="Raj Kumar"
+              className="aspect-square w-16 sm:w-20 rounded-full object-cover shadow-md flex-shrink-0"
             />
             <div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#b67c35] mb-3">
-                Sarah K.
+                Raj Kumar
               </h3>
-              <p className="text-lg sm:text-xl italic leading-relaxed">
+              <p className="text-lg sm:text-xl italic leading-relaxed font-serif">
                 "Absolutely stunning work! The visuals were breathtaking and the
                 storytelling was captivating. Every single detail was handled
                 with such precision and care, making the entire experience
@@ -65,19 +64,19 @@ const Reviews = () => {
           {/* Review Card 2 */}
           <div className="bg-white rounded-xl shadow-lg p-6 sm:p-10 flex items-start gap-6">
             <img
-              src="/images/home-gallery-2.jpg"
-              alt="Raj M"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover shadow-md"
+              src="/images/reviews-card-2.jpg"
+              alt="Alice Mathew"
+              className="aspect-square w-16 sm:w-20 rounded-full object-cover shadow-md flex-shrink-0"
             />
             <div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#b67c35] mb-3">
-                Raj M.
+                Alice Mathew
               </h3>
-              <p className="text-lg sm:text-xl italic leading-relaxed">
+              <p className="text-lg sm:text-xl italic leading-relaxed font-serif">
                 "Professional, innovative, and super easy to collaborate with.
                 From the very first discussion, they brought fresh ideas that we
-                hadn’t even considered. Their process is smooth, efficient, and
-                transparent. I’d recommend them to anyone looking for quality
+                hadn't even considered. Their process is smooth, efficient, and
+                transparent. I'd recommend them to anyone looking for quality
                 and creativity combined."
               </p>
             </div>
@@ -86,15 +85,15 @@ const Reviews = () => {
           {/* Review Card 3 */}
           <div className="bg-white rounded-xl shadow-lg p-6 sm:p-10 flex items-start gap-6">
             <img
-              src="/images/home-gallery-3.jpg"
-              alt="Emily W"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover shadow-md"
+              src="/images/reviews-card-3.webp"
+              alt="Kishore Mishra"
+              className="aspect-square w-16 sm:w-20 rounded-full object-cover shadow-md flex-shrink-0"
             />
             <div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#b67c35] mb-3">
-                Emily W.
+                Kishore Mishra
               </h3>
-              <p className="text-lg sm:text-xl italic leading-relaxed">
+              <p className="text-lg sm:text-xl italic leading-relaxed font-serif">
                 "They transformed our ideas into reality with such passion and
                 creativity. Every step of the way, they kept us in the loop and
                 ensured that the final product matched (and exceeded!) our
@@ -107,20 +106,20 @@ const Reviews = () => {
           {/* Review Card 4 */}
           <div className="bg-white rounded-xl shadow-lg p-6 sm:p-10 flex items-start gap-6">
             <img
-              src="/images/home-gallery-4.jpg"
-              alt="Daniel R"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover shadow-md"
+              src="/images/reviews-card-4.jpg"
+              alt="Richa Sharma"
+              className="aspect-square w-16 sm:w-20 rounded-full object-cover shadow-md flex-shrink-0"
             />
             <div>
               <h3 className="text-xl sm:text-2xl font-bold text-[#b67c35] mb-3">
-                Daniel R.
+                Richa Sharma
               </h3>
-              <p className="text-lg sm:text-xl italic leading-relaxed">
+              <p className="text-lg sm:text-xl italic leading-relaxed font-serif">
                 "The team went above and beyond to deliver excellence. The
                 attention to detail and commitment to perfection were clear from
                 day one. What impressed me most was their ability to adapt and
                 add value at every stage of the project. Truly world-class
-                quality — we couldn’t be happier."
+                quality — we couldn't be happier."
               </p>
             </div>
           </div>
@@ -136,22 +135,22 @@ const Reviews = () => {
         {/* Cross Image Layout */}
         <div className="flex justify-center gap-5 flex-wrap">
           <img
-            src="/images/home-gallery-1.jpg"
+            src="/images/reviews-start-your-journey-1.webp"
             alt="Inspiration"
             className="w-32 sm:w-40 h-40 object-cover rounded-xl shadow-lg rotate-[-8deg] hover:rotate-0 transition-transform"
           />
           <img
-            src="/images/home-gallery-2.jpg"
+            src="/images/reviews-start-your-journey-2.jpg"
             alt="Inspiration"
             className="w-32 sm:w-40 h-40 object-cover rounded-xl shadow-lg rotate-[6deg] hover:rotate-0 transition-transform"
           />
           <img
-            src="/images/home-gallery-3.jpg"
+            src="/images/reviews-start-your-journey-3.jpg"
             alt="Inspiration"
             className="w-32 sm:w-40 h-40 object-cover rounded-xl shadow-lg rotate-[-5deg] hover:rotate-0 transition-transform"
           />
           <img
-            src="/images/home-gallery-4.jpg"
+            src="/images/reviews-start-your-journey-4.jpg"
             alt="Inspiration"
             className="w-32 sm:w-40 h-40 object-cover rounded-xl shadow-lg rotate-[7deg] hover:rotate-0 transition-transform"
           />
@@ -160,7 +159,7 @@ const Reviews = () => {
         {/* CTA Button */}
         <div className="mt-12">
           <Link
-            to="/contact"
+            to="/form"
             className="bg-[#b67c35] text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-md hover:scale-105 transition-transform"
           >
             Contact Us
@@ -172,9 +171,9 @@ const Reviews = () => {
       <div className="bg-[#D9D9D9] py-16 px-5 sm:px-20">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-2xl sm:text-4xl font-bold text-[#b67c35] mb-6">
-            Let’s Create Something Beautiful Together
+            Let's Create Something Beautiful Together
           </h3>
-          <p className="text-lg sm:text-xl">
+          <p className="text-lg sm:text-xl font-serif">
             Join our growing list of happy clients who trusted us with their
             stories.
           </p>
