@@ -18,7 +18,7 @@ body {
 
 @font-face{
   font-family: "Magtis";
-  src: url("public/fonts/otf/Magtis-ExtraBold.otf");
+  src: url("/fonts/otf/Magtis-ExtraBold.otf");
   font-style: normal;
   font-display: swap;
 }
@@ -28,5 +28,5 @@ body {
   --color-button-color: #b67c35;
   --color-secondary: #E26796;
   --color-paper: #D9D9D9;
-  --font-magtis: "Magtis", "sans-serif";
+  --font-magtis: Magtis, sans-serif;
 }
