@@ -1,29 +1,38 @@
 import AnimatedTextLines from "../components/AnimatedTextLines";
 import { Link } from "react-router";
 
-const futureText1 =
-  "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam numquam officia ducimus odit blanditiis v";
+const textMale =
+  "Redefining confidence and class — our male models embody strength, style, and sophistication in every frame.";
+
+const textFemale =
+  "Where elegance meets expression — our female models bring every look to life with poise and charisma.";
+
+const textKids =
+  "Pure charm, endless energy — our young stars light up every campaign with innocence and authenticity.";
+
+const textTeen =
+  "Fresh, bold, and full of attitude — our teen models capture the vibrant spirit of today's generation.";
 
 const Models = () => {
   return (
     <section>
       {/* Male */}
       <section
-        id="hero"
-        className="relative h-[90vh] w-full px-5 sm:px-10 font-magtis font-extrabold bg-black flex items-center justify-center"
+        id="male"
+        className="relative min-h-[40vh] sm:min-h-[60vh] md:h-[90vh] w-full px-5 sm:px-10 font-magtis font-extrabold bg-black flex items-center justify-center py-10"
       >
-        <div className="flex flex-col gap-0">
-          <div className="flex items-center justify-center md:text-[180px] lg:text-[240px] xl:text-[300px] gap-5 tracking-widest">
+        <div className="flex flex-col gap-10">
+          <div className="flex items-center justify-center text-[80px] sm:text-[120px] md:text-[210px] lg:text-[240px] xl:text-[300px] gap-5 tracking-widest">
             <span className="text-primary leading-none">MA</span>
             <span className="text-paper leading-none">LE</span>
           </div>
           <div className="flex flex-col gap-5 items-start justify-center z-10">
             <div className="flex flex-col gap-7 px-2">
-              <p className="text-xl text-white sm:text-xl max-w-md text-pretty font-serif">
-                <AnimatedTextLines text={futureText1} />
+              <p className="text-md sm:text-2xl text-white max-w-md text-pretty font-serif">
+                <AnimatedTextLines text={textMale} />
               </p>
               <Link
-                to="/forms"
+                to="/form"
                 className="bg-primary text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold font-serif"
               >
                 Learn More
@@ -33,7 +42,7 @@ const Models = () => {
         </div>
         <div className="absolute inset-0">
           <img
-            src="/images/about-hero.png"
+            src="/images/models-male.webp"
             alt=""
             className="absolute left-1/2 -translate-x-1/2 object-cover object-center h-full"
           />
@@ -42,22 +51,22 @@ const Models = () => {
 
       {/* Female */}
       <section
-        id="hero"
-        className="relative min-h-screen w-full px-5 sm:px-10 font-magtis font-extrabold bg-paper flex items-center justify-center"
+        id="female"
+        className="relative min-h-[40vh] sm:h-[60vh] md:h-[100vh] w-full px-5 sm:px-10 font-magtis font-extrabold bg-paper flex items-center justify-center py-10"
       >
-        <div className="flex flex-col gap-0">
-          <div className="flex items-center justify-center md:text-[180px] lg:text-[240px] xl:text-[300px] tracking-widest">
+        <div className="flex flex-col gap-10">
+          <div className="flex items-center justify-center text-[60px] sm:text-[120px] md:text-[210px] lg:text-[240px] xl:text-[300px] gap-5 tracking-widest">
             <span className="text-primary leading-none">FEM</span>
             <span className="text-black leading-none">ALE</span>
           </div>
           <div className="flex flex-col gap-5 items-start justify-center z-10">
             <div className="flex flex-col gap-7 px-2">
-              <p className="text-xl text-black sm:text-xl max-w-md text-pretty font-serif">
-                <AnimatedTextLines text={futureText1} />
+              <p className="text-md sm:text-2xl text-black max-w-md text-pretty font-serif">
+                <AnimatedTextLines text={textFemale} />
               </p>
               <Link
-                to="/forms"
-                className="bg-primary text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold font-serif"
+                to="/form"
+                className="bg-black text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold font-serif"
               >
                 Learn More
               </Link>
@@ -66,7 +75,7 @@ const Models = () => {
         </div>
         <div className="absolute inset-0">
           <img
-            src="/images/about-hero.png"
+            src="/images/models-female.webp"
             alt=""
             className="absolute left-1/2 -translate-x-1/2 object-cover object-center h-full"
           />
@@ -74,23 +83,22 @@ const Models = () => {
       </section>
 
       {/* Kids */}
-
       <section
-        id="hero"
-        className="relative min-h-screen w-full px-5 sm:px-10 font-magtis font-extrabold bg-black flex items-center justify-center"
+        id="kids"
+        className="relative min-h-[40vh] sm:min-h-[60vh] md:min-h-[100vh] w-full px-5 sm:px-10 font-magtis font-extrabold bg-black flex items-center justify-center py-10"
       >
-        <div className="flex flex-col gap-0">
-          <div className="flex items-center justify-center md:text-[180px] lg:text-[240px] xl:text-[300px] tracking-widest">
+        <div className="flex flex-col gap-10">
+          <div className="flex items-center justify-center text-[100px] sm:text-[120px] md:text-[210px] lg:text-[240px] xl:text-[300px] gap-5 tracking-widest">
             <span className="text-primary leading-none">KI</span>
             <span className="text-paper leading-none">DS</span>
           </div>
           <div className="flex flex-col gap-5 items-start justify-center z-10">
             <div className="flex flex-col gap-7 px-2">
-              <p className="text-xl text-white sm:text-xl max-w-md text-pretty font-serif">
-                <AnimatedTextLines text={futureText1} />
+              <p className="text-md sm:text-2xl text-white max-w-md text-pretty font-serif">
+                <AnimatedTextLines text={textKids} />
               </p>
               <Link
-                to="/forms"
+                to="/form"
                 className="bg-primary text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold font-serif"
               >
                 Learn More
@@ -100,7 +108,7 @@ const Models = () => {
         </div>
         <div className="absolute inset-0">
           <img
-            src="/images/about-hero.png"
+            src="/images/models-kids.png"
             alt=""
             className="absolute left-1/2 -translate-x-1/2 object-cover object-center h-full"
           />
@@ -109,22 +117,22 @@ const Models = () => {
 
       {/* Teen */}
       <section
-        id="hero"
-        className="relative min-h-screen w-full px-5 sm:px-10 font-magtis font-extrabold bg-white flex items-center justify-center"
+        id="teen"
+        className="relative min-h-[40vh] sm:h-[60vh] md:h-[100vh] w-full px-5 sm:px-10 font-magtis font-extrabold bg-white flex items-center justify-center py-10"
       >
-        <div className="flex flex-col gap-0">
-          <div className="flex items-center justify-center md:text-[180px] lg:text-[240px] xl:text-[300px] tracking-widest">
+        <div className="flex flex-col gap-10">
+          <div className="flex items-center justify-center text-[100px] sm:text-[120px] md:text-[210px] lg:text-[240px] xl:text-[300px] gap-5 tracking-widest">
             <span className="text-primary leading-none">TE</span>
             <span className="text-black leading-none">EN</span>
           </div>
           <div className="flex flex-col gap-5 items-start justify-center z-10">
             <div className="flex flex-col gap-7 px-2">
-              <p className="text-xl text-black sm:text-xl max-w-md text-pretty font-serif">
-                <AnimatedTextLines text={futureText1} />
+              <p className="text-md sm:text-2xl text-black max-w-md text-pretty font-serif">
+                <AnimatedTextLines text={textTeen} />
               </p>
               <Link
-                to="/forms"
-                className="bg-primary text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold font-serif"
+                to="/form"
+                className="bg-black text-white px-5 py-3 rounded-lg max-w-[150px] text-center font-semibold font-serif"
               >
                 Learn More
               </Link>
@@ -133,12 +141,12 @@ const Models = () => {
         </div>
         <div className="absolute inset-0">
           <img
-            src="/images/about-hero.png"
+            src="/images/models-teen.webp"
             alt=""
             className="absolute left-1/2 -translate-x-1/2 object-cover object-center h-full"
           />
         </div>
-      </section>
+      </section>    
     </section>
   );
 };
