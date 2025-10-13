@@ -3,12 +3,12 @@ const Form = () => {
     <section>
       <section
         id="form"
-        className="flex items-center justify-center relative h-[90vh] bg-black overflow-y-hidden"
+        className="flex items-center justify-center relative lg:h-[90vh] min-h-[90vh] bg-black"
       >
         <div className="flex flex-col lg:flex-row items-start justify-center w-full h-full">
           {/* Chat on whatsapp */}
-          <div className="flex lg:justify-center items-start h-full w-full lg:w-1/2 px-5 sm:px-10">
-            <div className="flex flex-col justify-center lg:justify-start gap-5 sm:gap-8 z-10 text-white lg:mt-[100px] h-full">
+          <div className="flex lg:justify-center items-start h-full w-full lg:w-1/2 px-5 sm:px-10 py-10 lg:py-0">
+            <div className="flex flex-col justify-center lg:justify-start gap-5 sm:gap-8 z-10 text-white lg:pt-[100px] h-full">
               <div className="text-primary text-7xl">Let's Talk</div>
               <div className="font-serif text-white">
                 We are here to help you. Chat with us on WhatsApp
@@ -37,13 +37,13 @@ const Form = () => {
             </div>
           </div>
           {/* Location */}
-          <div className="relative flex lg:justify-center items-start h-full w-full lg:w-1/2 px-5 sm:px-10">
+          <div className="relative flex lg:justify-center items-start h-full w-full lg:w-1/2 px-5 sm:px-10 py-10 lg:py-0">
             <img
-              src="/images/form-right.webp"
+              src="/images/form-right.jpg"
               alt=""
               className="absolute inset-0 w-full h-full object-cover object-center"
             />
-            <div className="flex flex-col justify-center lg:justify-start gap-8 z-10 text-white lg:mt-[100px] h-full">
+            <div className="flex flex-col justify-center lg:justify-start gap-8 z-10 text-white lg:pt-[100px] h-full">
               <div className="text-primary text-7xl">We are Here</div>
               <div className="font-serif">
                 Our door is always open for a good cup of coffee
