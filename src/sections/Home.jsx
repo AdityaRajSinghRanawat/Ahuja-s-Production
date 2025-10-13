@@ -128,25 +128,38 @@ const Home = () => {
 
     // bento timeline
     if (!bentoContainerRef.current) return;
-
-    bentoTL.current = gsap
-      .timeline({
+      
+    if (isMobile) {
+      gsap.from(bentoContainerRef.current, {
         scrollTrigger: {
           trigger: bentoContainerRef.current,
-          start: "center center",
-          scrub: true,
-          pin: true,
-          end: "+=300%",
+          start: "top 80%",
         },
+        duration: 3,
+        y: 100,
+        opacity: 0,
+        ease: "power2.out",
       })
-      .from(bentoText1Ref.current, { opacity: 0, ease: "circ.out" })
-      .from(bentoText2Ref.current, { opacity: 0, ease: "circ.out" })
-      .from(bentoText3Ref.current, { opacity: 0, ease: "circ.out" })
-      .from(bentoImg1Ref.current, { opacity: 0, ease: "circ.out" })
-      .from(bentoImg2Ref.current, { opacity: 0, ease: "circ.out" })
-      .from(bentoImg3Ref.current, { opacity: 0, ease: "circ.out" });
+    } else {
+      bentoTL.current = gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: bentoContainerRef.current,
+            start: "center center",
+            scrub: true,
+            pin: true,
+            end: "+=300%",
+          },
+        })
+        .from(bentoText1Ref.current, { opacity: 0, ease: "circ.out" })
+        .from(bentoText2Ref.current, { opacity: 0, ease: "circ.out" })
+        .from(bentoText3Ref.current, { opacity: 0, ease: "circ.out" })
+        .from(bentoImg1Ref.current, { opacity: 0, ease: "circ.out" })
+        .from(bentoImg2Ref.current, { opacity: 0, ease: "circ.out" })
+        .from(bentoImg3Ref.current, { opacity: 0, ease: "circ.out" });
 
-    ScrollTrigger.refresh();
+      ScrollTrigger.refresh();
+    }
   }, []);
 
   return (
