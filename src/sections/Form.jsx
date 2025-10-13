@@ -36,6 +36,7 @@ const Form = () => {
               </a>
             </div>
           </div>
+          
           {/* Location */}
           <div className="relative flex lg:justify-center items-start h-full w-full lg:w-1/2 px-5 sm:px-10 py-10 lg:py-0">
             <img
