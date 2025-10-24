@@ -165,7 +165,7 @@ const Home = () => {
   return (
     <section id="home">
       {/* Hero Section */}
-      <div className="hero h-[90vh] sm:h-[90vh] relative flex flex-col items-center justify-center text-white px-5 sm:px-10 overflow-hidden ">
+      <div className="hero h-[90vh] relative flex flex-col items-center justify-center text-white px-5 sm:px-10 overflow-hidden py-10">
         <img
           src="/images/home-hero.jpg"
           alt="Ahuja's Production"
@@ -212,25 +212,25 @@ const Home = () => {
       >
         <img
           ref={heroImg1Ref}
-          src="/images/home-gallery-1.jpg"
+          src="/images/home-gallery-1.webp"
           alt=""
           className="max-w-[200px] sm:max-w-[300px] w-full object-cover object-center border-[10px] border-paper translate-y-0"
         />
         <img
           ref={heroImg2Ref}
-          src="/images/home-gallery-2.jpg"
+          src="/images/home-gallery-2.webp"
           alt=""
           className="max-w-[200px] sm:max-w-[300px] w-full object-cover object-center border-[10px] border-paper -translate-x-6 sm:translate-y-20 -rotate-12 z-10"
         />
         <img
           ref={heroImg3Ref}
-          src="/images/home-gallery-3.jpg"
+          src="/images/home-gallery-3.webp"
           alt=""
           className="max-w-[200px] sm:max-w-[300px] w-full object-cover object-center border-[10px] border-paper sm:-translate-y-10"
         />
         <img
           ref={heroImg4Ref}
-          src="/images/home-gallery-4.jpg"
+          src="/images/home-gallery-4.webp"
           alt=""
           className="max-w-[200px] sm:max-w-[300px] w-full object-cover object-center border-[10px] border-paper rotate-12 sm:rotate-0 sm:translate-y-20"
         />
@@ -257,7 +257,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          src="/images/home-future.jpg"
+          src="/images/home-future.webp"
           alt=""
           className="w-full sm:max-w-1/3 h-full rounded-tr-full rounded-bl-full"
         />
@@ -278,7 +278,7 @@ const Home = () => {
           </div>
           <div ref={bentoImg1Ref} className="col-span-1 row-span-1 rounded-lg">
             <img
-              src="/images/home-bento-1.jpg"
+              src="/images/home-bento-1.webp"
               alt=""
               className="rounded-lg shadow-md h-full w-full object-cover object-center"
             />

@@ -149,7 +149,7 @@ const Services = () => {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
           <div className="bg-white h-fit pb-35 text-black rounded-xl shadow-lg p-8 flex flex-col gap-4">
             <img
-              src="/images/service-end-1.jpg"
+              src="/images/service-end-1.webp"
               alt=""
               className="rounded-lg object-cover max-h-[50vh]"
             />

@@ -64,7 +64,7 @@ const Reviews = () => {
           {/* Review Card 2 */}
           <div className="bg-white rounded-xl shadow-lg p-6 sm:p-10 flex items-start gap-6">
             <img
-              src="/images/reviews-card-2.jpg"
+              src="/images/reviews-card-2.webp"
               alt="Alice Mathew"
               className="aspect-square w-16 sm:w-20 rounded-full object-cover shadow-md flex-shrink-0"
             />

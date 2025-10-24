@@ -63,7 +63,7 @@ const About = () => {
         <div className="flex justify-center items-center md:flex-row md:items-end md:justify-end md:-mt-20">
           <div>
             <img
-              src="/images/about-main-2.jpg"
+              src="/images/about-main-2.webp"
               alt="about us"
               className="md:w-[600px] md:max-w-[600px] h-[300px] object-cover object-center box-shadow shadow-xl"
             />
@@ -206,7 +206,7 @@ const About = () => {
             className="w-full md:w-1/2 object-cover object-center"
           />
           <img
-            src="/images/about-8.jpg"
+            src="/images/about-8.webp"
             alt="about-8"
             className="w-full md:w-1/2 object-cover object-center"
           />
@@ -249,7 +249,7 @@ const About = () => {
           />
           <div className="flex flex-col md:flex-row w-full md:w-1/2">
             <img
-              src="/images/about-13.jpeg"
+              src="/images/about-13.webp"
               alt="about-13"
               className="w-full md:w-1/2 object-cover object-center"
             />
