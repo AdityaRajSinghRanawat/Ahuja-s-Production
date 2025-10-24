@@ -71,7 +71,7 @@ const Navbar = () => {
           aria-expanded={open}
           onClick={() => setOpen((s) => !s)}
           ref={toggleRef}
-          className="lg:hidden ml-2 p-2 rounded-md text-white bg-black shadow-sm ring-1 ring-gray-200 hover:bg-white/100 transition scale-z-100"
+          className="lg:hidden ml-2 p-2 z-100 rounded-md text-white bg-black shadow-sm ring-1 ring-gray-200 hover:bg-white/100 transition scale-z-100"
         >
           {!open ? (
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
