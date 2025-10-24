@@ -174,7 +174,6 @@ const Models = () => {
           </div>
         </div>
       </section>
-
     </section>
   );
 };
